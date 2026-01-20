@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f34e4c018b6f19e3913e366aa59c2c06 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f34e4c018b6f19e3913e366aa59c2c06" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f34e4c018b6f19e3913e366aa59c2c06 = L.map(
+                "map_f34e4c018b6f19e3913e366aa59c2c06",
+                {
+                    center: [58.4002025462963, 13.593474768518519],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3fe0f5949ff03eb1aa56517a7dd3a1c2 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles \u0026copy; Esri \u0026mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3fe0f5949ff03eb1aa56517a7dd3a1c2.addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+            var marker_62df7711fc2b5c69790ba3267b0c4ad5 = L.marker(
+                [58.40102777777778, 13.59156388888889],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_d6a588aa054e4c5a14210c01d9ded715 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_56bc83cb25529417b842c73b557da312 = $(`<div id="html_56bc83cb25529417b842c73b557da312" style="width: 100.0%; height: 100.0%;">     <b>5_rosa_shrub</b><br>     <a href='photos/5_rosa_shrub.JPG' target='_blank'>         <img src='photos/5_rosa_shrub.JPG' width='200'>     </a>     </div>`)[0];
+                popup_d6a588aa054e4c5a14210c01d9ded715.setContent(html_56bc83cb25529417b842c73b557da312);
+            
+        
+
+        marker_62df7711fc2b5c69790ba3267b0c4ad5.bindPopup(popup_d6a588aa054e4c5a14210c01d9ded715)
+        ;
+
+        
+    
+    
+            var marker_beafdab4422045509d013b8b7fc1b5b8 = L.marker(
+                [58.400933333333334, 13.594047222222223],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_82817089636bb55956eed599df6fe218 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_08bd05e033664de3431e2851ea8100ac = $(`<div id="html_08bd05e033664de3431e2851ea8100ac" style="width: 100.0%; height: 100.0%;">     <b>11_part_substrate</b><br>     <a href='photos/11_part_substrate.JPG' target='_blank'>         <img src='photos/11_part_substrate.JPG' width='200'>     </a>     </div>`)[0];
+                popup_82817089636bb55956eed599df6fe218.setContent(html_08bd05e033664de3431e2851ea8100ac);
+            
+        
+
+        marker_beafdab4422045509d013b8b7fc1b5b8.bindPopup(popup_82817089636bb55956eed599df6fe218)
+        ;
+
+        
+    
+    
+            var marker_7ecfc9b90e454582e25c82eda9b75ede = L.marker(
+                [58.40116111111111, 13.593358333333335],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_1e61e471549d9ad8e86162b6ddb97158 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_33753c01e9a560b912d4e05e8c85e08e = $(`<div id="html_33753c01e9a560b912d4e05e8c85e08e" style="width: 100.0%; height: 100.0%;">     <b>8_shrub_mix</b><br>     <a href='photos/8_shrub_mix.JPG' target='_blank'>         <img src='photos/8_shrub_mix.JPG' width='200'>     </a>     </div>`)[0];
+                popup_1e61e471549d9ad8e86162b6ddb97158.setContent(html_33753c01e9a560b912d4e05e8c85e08e);
+            
+        
+
+        marker_7ecfc9b90e454582e25c82eda9b75ede.bindPopup(popup_1e61e471549d9ad8e86162b6ddb97158)
+        ;
+
+        
+    
+    
+            var marker_086045a9cc8c30db4763c688195e4c10 = L.marker(
+                [58.40054444444444, 13.590352777777778],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_a729c016aeda61351311d588b24a8142 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_37c7919bfa5b8eae8cb8abd9fbbbec1a = $(`<div id="html_37c7919bfa5b8eae8cb8abd9fbbbec1a" style="width: 100.0%; height: 100.0%;">     <b>1_road_start</b><br>     <a href='photos/1_road_start.JPG' target='_blank'>         <img src='photos/1_road_start.JPG' width='200'>     </a>     </div>`)[0];
+                popup_a729c016aeda61351311d588b24a8142.setContent(html_37c7919bfa5b8eae8cb8abd9fbbbec1a);
+            
+        
+
+        marker_086045a9cc8c30db4763c688195e4c10.bindPopup(popup_a729c016aeda61351311d588b24a8142)
+        ;
+
+        
+    
+    
+            var marker_d1a3980f16937e4ecb964503762bf919 = L.marker(
+                [58.40109722222222, 13.59443888888889],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_1158ff35713a0e776942e0c5c3e77696 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0dea0ca380a9d10548a7d2434e955d4b = $(`<div id="html_0dea0ca380a9d10548a7d2434e955d4b" style="width: 100.0%; height: 100.0%;">     <b>10_birch</b><br>     <a href='photos/10_birch.JPG' target='_blank'>         <img src='photos/10_birch.JPG' width='200'>     </a>     </div>`)[0];
+                popup_1158ff35713a0e776942e0c5c3e77696.setContent(html_0dea0ca380a9d10548a7d2434e955d4b);
+            
+        
+
+        marker_d1a3980f16937e4ecb964503762bf919.bindPopup(popup_1158ff35713a0e776942e0c5c3e77696)
+        ;
+
+        
+    
+    
+            var marker_43b38233bcc9c25ec3b3f2f9f7762a88 = L.marker(
+                [58.40051388888889, 13.591108333333334],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_6495f544f85d1823f64e488d662ca85a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e06d62d721c37cfce1bd5f3a29d1fad7 = $(`<div id="html_e06d62d721c37cfce1bd5f3a29d1fad7" style="width: 100.0%; height: 100.0%;">     <b>12_dry</b><br>     <a href='photos/12_dry.JPG' target='_blank'>         <img src='photos/12_dry.JPG' width='200'>     </a>     </div>`)[0];
+                popup_6495f544f85d1823f64e488d662ca85a.setContent(html_e06d62d721c37cfce1bd5f3a29d1fad7);
+            
+        
+
+        marker_43b38233bcc9c25ec3b3f2f9f7762a88.bindPopup(popup_6495f544f85d1823f64e488d662ca85a)
+        ;
+
+        
+    
+    
+            var marker_f628951ba5995a206e021d94c5d686a1 = L.marker(
+                [58.40054444444444, 13.590730555555556],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_90f0fac7354cc75de28414bdb20f151f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cf026dea8d9c719fa1551f7508980203 = $(`<div id="html_cf026dea8d9c719fa1551f7508980203" style="width: 100.0%; height: 100.0%;">     <b>2_fence</b><br>     <a href='photos/2_fence.JPG' target='_blank'>         <img src='photos/2_fence.JPG' width='200'>     </a>     </div>`)[0];
+                popup_90f0fac7354cc75de28414bdb20f151f.setContent(html_cf026dea8d9c719fa1551f7508980203);
+            
+        
+
+        marker_f628951ba5995a206e021d94c5d686a1.bindPopup(popup_90f0fac7354cc75de28414bdb20f151f)
+        ;
+
+        
+    
+    
+            var marker_15e62239599ab31ddb8319ba5e293172 = L.marker(
+                [58.40121111111111, 13.593622222222223],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_4d94aaa3c9f99e3d9b315ca51184287e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6006d38ca059d97e1a434d947bd1fa7 = $(`<div id="html_c6006d38ca059d97e1a434d947bd1fa7" style="width: 100.0%; height: 100.0%;">     <b>9_pine</b><br>     <a href='photos/9_pine.JPG' target='_blank'>         <img src='photos/9_pine.JPG' width='200'>     </a>     </div>`)[0];
+                popup_4d94aaa3c9f99e3d9b315ca51184287e.setContent(html_c6006d38ca059d97e1a434d947bd1fa7);
+            
+        
+
+        marker_15e62239599ab31ddb8319ba5e293172.bindPopup(popup_4d94aaa3c9f99e3d9b315ca51184287e)
+        ;
+
+        
+    
+    
+            var marker_98b993bd06b11f662f75cc8e27e08c8f = L.marker(
+                [58.40107222222222, 13.591630555555556],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_00f2f06497875249b58626aa14114822 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_426a683e6daf731cc7f3a267fd702b8c = $(`<div id="html_426a683e6daf731cc7f3a267fd702b8c" style="width: 100.0%; height: 100.0%;">     <b>6_prunus_tree</b><br>     <a href='photos/6_prunus_tree.JPG' target='_blank'>         <img src='photos/6_prunus_tree.JPG' width='200'>     </a>     </div>`)[0];
+                popup_00f2f06497875249b58626aa14114822.setContent(html_426a683e6daf731cc7f3a267fd702b8c);
+            
+        
+
+        marker_98b993bd06b11f662f75cc8e27e08c8f.bindPopup(popup_00f2f06497875249b58626aa14114822)
+        ;
+
+        
+    
+    
+            var marker_8be77c64633d7235e0df705ce6665a7e = L.marker(
+                [58.39306388888889, 13.608702777777777],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_69a866288328feb70f3f1ec4cf8494a8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a5fea149a52a4b716ce41e3b46a0b142 = $(`<div id="html_a5fea149a52a4b716ce41e3b46a0b142" style="width: 100.0%; height: 100.0%;">     <b>7_sorbus_shrub</b><br>     <a href='photos/7_sorbus_shrub.JPG' target='_blank'>         <img src='photos/7_sorbus_shrub.JPG' width='200'>     </a>     </div>`)[0];
+                popup_69a866288328feb70f3f1ec4cf8494a8.setContent(html_a5fea149a52a4b716ce41e3b46a0b142);
+            
+        
+
+        marker_8be77c64633d7235e0df705ce6665a7e.bindPopup(popup_69a866288328feb70f3f1ec4cf8494a8)
+        ;
+
+        
+    
+    
+            var marker_5d1d38519f23f805edf9cd425b9e9072 = L.marker(
+                [58.40074444444444, 13.591372222222223],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_c7a3c8e7f8017b139252a589e8c3af01 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ebaf624e8cdb6da3fd0e3890c33d464b = $(`<div id="html_ebaf624e8cdb6da3fd0e3890c33d464b" style="width: 100.0%; height: 100.0%;">     <b>4_prunus_tree</b><br>     <a href='photos/4_prunus_tree.JPG' target='_blank'>         <img src='photos/4_prunus_tree.JPG' width='200'>     </a>     </div>`)[0];
+                popup_c7a3c8e7f8017b139252a589e8c3af01.setContent(html_ebaf624e8cdb6da3fd0e3890c33d464b);
+            
+        
+
+        marker_5d1d38519f23f805edf9cd425b9e9072.bindPopup(popup_c7a3c8e7f8017b139252a589e8c3af01)
+        ;
+
+        
+    
+    
+            var marker_921fbaf747b7989c042a068e0e40a238 = L.marker(
+                [58.40051666666667, 13.590769444444446],
+                {
+}
+            ).addTo(map_f34e4c018b6f19e3913e366aa59c2c06);
+        
+    
+        var popup_b873c8b7f66bb5202361bde0566762bb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eaa39ebfab681745de1321422f82d18d = $(`<div id="html_eaa39ebfab681745de1321422f82d18d" style="width: 100.0%; height: 100.0%;">     <b>3_meadow</b><br>     <a href='photos/3_meadow.JPG' target='_blank'>         <img src='photos/3_meadow.JPG' width='200'>     </a>     </div>`)[0];
+                popup_b873c8b7f66bb5202361bde0566762bb.setContent(html_eaa39ebfab681745de1321422f82d18d);
+            
+        
+
+        marker_921fbaf747b7989c042a068e0e40a238.bindPopup(popup_b873c8b7f66bb5202361bde0566762bb)
+        ;
+
+        
+    
+</script>
+</html>
